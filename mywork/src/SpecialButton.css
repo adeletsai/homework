@@ -1,0 +1,24 @@
+/* 這裡就是定義css的呀 不會的話就... */
+
+.special-button button{
+    background: #BBE986;
+    box-shadow: 0 5px 0 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+}
+
+.special-button button:hover{
+     /* ：hover 這是滑過去當下的動作 */
+    background: #F5A623;
+}
+
+.special-button button:active{ 
+    /* ：active 這是點擊當下的動作 */
+    background: #D0021B;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.50);
+}
+
+.special-button button.clicked{
+    background: #ccc;
+    color: #666;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.50);
+} 
